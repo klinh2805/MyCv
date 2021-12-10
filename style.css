@@ -1,0 +1,203 @@
+* {
+  margin: 2px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f1efef;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ebe5e5; }
+
+.cv {
+  width: 866px;
+  height: auto;
+  display: flex;
+  margin: 10px auto;
+  box-shadow: 20px 20px 20px #999595; }
+  .cv_bentrai {
+    width: 275px;
+    background-color: rgba(37, 10, 78, 0.97); }
+    .cv_bentrai_avatar img {
+      width: 66%;
+      height: 50%;
+      clip-path: polygon(49% 0, 100% 25%, 100% 74%, 50% 100%, 0 73%, 0 26%);
+      margin-left: 41px; }
+    .cv_bentrai_avatar .title .ten {
+      font-weight: bold;
+      padding-left: 27px;
+      font-size: 162%; }
+    .cv_bentrai_avatar .title .tenphu {
+      padding-left: 86px;
+      font-size: 112%; }
+    .cv_bentrai_noidung .cv_profile .icon {
+      clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%);
+      border: 10px solid white; }
+    .cv_bentrai_noidung .cv_contact .icon {
+      clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%);
+      border: 10px solid white; }
+    .cv_bentrai_noidung .cv_contact ul li {
+      display: flex;
+      align-items: center; }
+      .cv_bentrai_noidung .cv_contact ul li .icon {
+        clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%);
+        border: 10px solid white;
+        margin: 5px; }
+      .cv_bentrai_noidung .cv_contact ul li .linkk {
+        padding: 2px 3px 11px 12px; }
+    .cv_bentrai_noidung .cv_skills .title .icon {
+      clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%);
+      border: 10px solid white; }
+    .cv_bentrai_noidung .cv_skills ul li {
+      display: flex;
+      align-items: center;
+      margin-bottom: -5px;
+      padding: 2px 3px 11px 12px; }
+      .cv_bentrai_noidung .cv_skills ul li .daucham {
+        border-radius: 50%;
+        width: 7px;
+        height: 6px;
+        background-color: white; }
+      .cv_bentrai_noidung .cv_skills ul li .skillname {
+        width: 55%;
+        font-size: 15px; }
+      .cv_bentrai_noidung .cv_skills ul li .skilltram {
+        width: 35%;
+        height: 11px;
+        border-radius: 10px;
+        border: 3px solid white;
+        background: rgba(37, 10, 78, 0.97);
+        position: relative; }
+        .cv_bentrai_noidung .cv_skills ul li .skilltram span {
+          height: 135%;
+          top: -3px;
+          left: -4px;
+          position: absolute;
+          background-color: white; }
+    .cv_bentrai_noidung .title {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center; }
+      .cv_bentrai_noidung .title .ten {
+        color: white; }
+      .cv_bentrai_noidung .title .them {
+        width: 100%;
+        display: flex;
+        align-items: center; }
+    .cv_bentrai_noidung .cv_connect .title .icon {
+      clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%);
+      border: 10px solid white; }
+    .cv_bentrai_noidung .cv_connect .style ul li {
+      display: flex;
+      padding: 2px 3px 11px 12px; }
+      .cv_bentrai_noidung .cv_connect .style ul li .icon {
+        clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%);
+        border: 10px solid white;
+        margin: 4px; }
+    .cv_bentrai_noidung .lorem {
+      padding-top: 5px;
+      line-height: 36px;
+      padding: 3px 0px 8px 17px; }
+      .cv_bentrai_noidung .lorem span {
+        color: white;
+        font-weight: bold; }
+  .cv_benphai {
+    color: black;
+    width: 590px;
+    background-color: #ebe5e5; }
+    .cv_benphai .title {
+      width: 100%;
+      display: flex;
+      align-items: center; }
+      .cv_benphai .title .icon {
+        width: 25px;
+        height: 25px; }
+        .cv_benphai .title .icon i {
+          position: absolute; }
+    .cv_benphai_work .title {
+      padding: 14px; }
+      .cv_benphai_work .title .icon {
+        clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%);
+        width: 39px;
+        height: 39px;
+        border: 9px solid rgba(37, 10, 78, 0.97); }
+    .cv_benphai_work ul li {
+      padding: 10px 2px 10px 10px; }
+    .cv_benphai_skill .title {
+      padding: 14px; }
+      .cv_benphai_skill .title .icon {
+        clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%);
+        width: 39px;
+        height: 39px;
+        border: 10px solid rgba(37, 10, 78, 0.97); }
+    .cv_benphai_skill .style {
+      padding: 11px 1px 25px -8px; }
+      .cv_benphai_skill .style ul li {
+        display: flex;
+        align-items: center; }
+        .cv_benphai_skill .style ul li .daucham {
+          border-radius: 50%;
+          width: 7px;
+          height: 6px;
+          background-color: rgba(37, 10, 78, 0.97);
+          margin: 12px; }
+        .cv_benphai_skill .style ul li .skillname {
+          width: 50%;
+          font-size: 12px;
+          padding-left: 10px; }
+        .cv_benphai_skill .style ul li .skilltram {
+          width: 90px;
+          height: 11px;
+          border-radius: 10px;
+          border: 3px solid rgba(37, 10, 78, 0.97);
+          position: relative; }
+          .cv_benphai_skill .style ul li .skilltram span {
+            height: 135%;
+            top: -3px;
+            left: -3px;
+            position: absolute;
+            background-color: rgba(37, 10, 78, 0.97); }
+    .cv_benphai_education .title {
+      padding: 14px; }
+      .cv_benphai_education .title .icon {
+        clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%);
+        width: 39px;
+        height: 39px;
+        border: 8px solid rgba(37, 10, 78, 0.97); }
+    .cv_benphai_education ul li {
+      padding: 10px 2px 10px 10px; }
+    .cv_benphai_profi {
+      margin: 10px; }
+      .cv_benphai_profi .title .icon {
+        clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%);
+        width: 39px;
+        height: 39px;
+        border: 10px solid rgba(37, 10, 78, 0.97); }
+      .cv_benphai_profi .style {
+        padding: 11px 1px 25px 6px; }
+        .cv_benphai_profi .style ul li {
+          display: flex;
+          align-items: center; }
+          .cv_benphai_profi .style ul li .daucham {
+            border-radius: 50%;
+            width: 7px;
+            height: 6px;
+            background-color: rgba(37, 10, 78, 0.97); }
+          .cv_benphai_profi .style ul li .skillname {
+            width: 50%;
+            font-size: 12px;
+            padding-left: 10px; }
+          .cv_benphai_profi .style ul li .skilltram {
+            width: 90px;
+            height: 11px;
+            border-radius: 10px;
+            border: 3px solid rgba(37, 10, 78, 0.97);
+            position: relative; }
+            .cv_benphai_profi .style ul li .skilltram span {
+              height: 135%;
+              top: -3px;
+              left: -3px;
+              position: absolute;
+              background-color: rgba(37, 10, 78, 0.97); }
+
+/*# sourceMappingURL=style.css.map */

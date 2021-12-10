@@ -1,0 +1,266 @@
+$background: rgb(241, 239, 239)
+$bentrai: rgba(37, 10, 78, 0.97)
+$mauchu: rgb(235, 229, 229)
+$like: white
+*
+  margin: 2px
+  padding: 0px
+  box-sizing: border-box
+
+body
+  background-color: $background
+  font-size: 16px
+  line-height: 23px
+  color: $mauchu
+
+.cv
+  width: 866px
+  height: auto
+  display: flex
+  margin: 10px auto
+  box-shadow: 20px 20px 20px rgb(153, 149, 149)
+  &_bentrai
+    width: 275px
+    background-color: $bentrai
+    &_avatar
+      img
+        width: 66%
+        height: 50%
+        clip-path: polygon(49% 0, 100% 25%, 100% 74%, 50% 100%, 0 73%, 0 26%)
+        margin-left: 41px
+
+      .title
+        .ten
+          font-weight: bold
+          padding-left: 27px
+          font-size: 162%
+
+        .tenphu
+          padding-left: 86px
+          font-size: 112%
+
+    &_noidung
+      .cv_profile
+        .icon
+          clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%)
+          border: 10px solid white
+
+      .cv_contact
+        .icon
+          clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%)
+          border: 10px solid white
+
+        ul
+          li
+            display: flex
+            align-items: center
+            .icon
+              clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%)
+              border: 10px solid $like
+              margin: 5px
+
+            .linkk
+              padding: 2px 3px 11px 12px
+
+      .cv_skills
+        .title
+          .icon
+            clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%)
+            border: 10px solid white
+
+        ul
+          li
+            display: flex
+            align-items: center
+            margin-bottom: -5px
+            padding: 2px 3px 11px 12px
+            .daucham
+              border-radius: 50%
+              width: 7px
+              height: 6px
+              background-color: white
+            .skillname
+              width: 55%
+              font-size: 15px
+
+            .skilltram
+              width: 35%
+              height: 11px
+              border-radius: 10px
+              border: 3px solid $like
+              background: $bentrai
+              position: relative
+              span
+                height: 135%
+                top: -3px
+                left: -4px
+                position: absolute
+                background-color: $like
+
+      .title
+        margin-bottom: 10px
+        display: flex
+        align-items: center
+        .ten
+          color: $like
+
+
+        .them
+          width: 100%
+          display: flex
+          align-items: center
+
+
+      .cv_connect
+        .title
+          .icon
+            clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%)
+            border: 10px solid white
+
+
+        .style
+          ul
+            li
+              display: flex
+              padding: 2px 3px 11px 12px
+              .icon
+                clip-path: polygon(50% 0, 100% 30%, 100% 70%, 51% 100%, 0 70%, 0 28%)
+                border: 10px solid $like
+                margin: 4px
+
+      .lorem
+        padding-top: 5px
+        line-height: 36px
+        padding: 3px 0px 8px 17px
+        span
+          color: $like
+          font-weight: bold
+
+  &_benphai
+    color: black
+    width: 590px
+    background-color: $mauchu
+    .title
+      width: 100%
+      display: flex
+      align-items: center
+      .icon
+        width: 25px
+        height: 25px
+        i
+          position: absolute
+
+    &_work
+      .title
+        padding: 14px
+        .icon
+          clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%)
+          width: 39px
+          height: 39px
+          border: 9px solid $bentrai
+
+      ul
+        li
+          padding: 10px 2px 10px 10px
+
+    &_skill
+      .title
+        padding: 14px
+        .icon
+          clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%)
+          width: 39px
+          height: 39px
+          border: 10px solid $bentrai
+
+
+      .style
+        padding: 11px 1px 25px -8px
+        ul
+          li
+            display: flex
+            align-items: center
+            .daucham
+              border-radius: 50%
+              width: 7px
+              height: 6px
+              background-color: $bentrai
+              margin: 12px
+            .skillname
+              width: 50%
+              font-size: 12px
+              padding-left: 10px
+
+            .skilltram
+              width: 90px
+              height: 11px
+              border-radius: 10px
+              border: 3px solid $bentrai
+              position: relative
+              span
+                height: 135%
+                top: -3px
+                left: -3px
+                position: absolute
+                background-color: $bentrai
+
+    &_education
+      .title
+        padding: 14px
+        .icon
+          clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%)
+          width: 39px
+          height: 39px
+          border: 8px solid $bentrai
+
+      ul
+        li
+          padding: 10px 2px 10px 10px
+
+    &_profi
+      margin: 10px
+      .title
+          padding: 14px
+        .icon
+          clip-path: polygon(51% 0, 100% 24%, 100% 76%, 49% 100%, 0 75%, 0 24%)
+          width: 39px
+          height: 39px
+          border: 10px solid $bentrai
+
+
+      .style
+        padding: 11px 1px 25px 6px
+        ul
+          li
+            display: flex
+            align-items: center
+            .daucham
+              border-radius: 50%
+              width: 7px
+              height: 6px
+              background-color: $bentrai
+            .skillname
+              width: 50%
+              font-size: 12px
+              padding-left: 10px
+
+            .skilltram
+              width: 90px
+              height: 11px
+              border-radius: 10px
+              border: 3px solid $bentrai
+              position: relative
+              span
+                height: 135%
+                top: -3px
+                left: -3px
+                position: absolute
+                background-color: $bentrai
+
+
+
+
+
+
+
+
+
